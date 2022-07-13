@@ -14,36 +14,45 @@
     />
 
     <link rel="stylesheet" href="./css/styles.css" />
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"
+    />
   </head>
-  <div class="conteiner">
-    <body class="body">
-      <!-- верхня лінія -->
-      <header>
-        <div class="page-heder conteiner">
-          <nav class="main-nav item">
-            <a class="logo" href="#"> Web<span class="logo-studio">Studio</span></a>
+     <body class="body">
+    <div class="conteiner">
+    
+     <!-- верхня лінія -->
+    <header>
+      <div class="page-heder item">
+        <nav class="main-nav item">
+          <a class="logo" href="#"> Web<span class="logo-studio">Studio</span></a>
 
-            <!-- навігація по сторінкам -->
-            <ul class="pagination item list">
-              <li class="item"><a class="link" href="./index.html" class="current">Студия</a></li>
+          <!-- навігфція по сторінкам -->
 
-              <li class="item">
-                <a class="link current" href="./portfolio.html" class="current"> Портфолио</a>
-              </li>
+          <ul class="pagination item list">
+            <li class="item">
+              <a class="link " href="./index.html" class="current">Студия</a>
+            </li>
 
-              <li class="item"><a class="link" href="">Контакты</a></li>
-            </ul>
-            <!-- imeil and tel -->
-            <ul class="mail-tel item list">
-              <li>
-                <a class="mail" href="meiltu:info@devstudio.com">info@devstudio.com</a>
-              </li>
+            <li class="item"><a class="link current" href="./portfolio.html">Портфолио</a></li>
 
-              <li class="item"><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
-          </nav>
+            <li class="item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- meil and tel -->
+        <div class="contact">
+          <ul class="mail-tel list item">
+            <li>
+              <a class="mail" href="meilto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li>
+              <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </div>
+    </header>
       <!-- navigation button-->
       <main>
         <section class="examples">
@@ -56,38 +65,48 @@
             <li class="examples-btn"><button class="btn" type="button">маркетинг</button></li>
           </ul>
           <!-- examples of work -->
-
+<div class="cection"> 
           <ul class="examples-page list">
             <li class="poster">
               <a href="#"><img width="370" src="./images/tehno-1.jpg" alt="фото 3 сотрудника" /></a>
-              <h2 class="portfolio-subtitle">Технокряк</h2>
-              <p class="portfolio-text">веб-сайт</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Технокряк</h2>
+                <p class="portfolio-text">веб-сайт</p>
+              </div>
             </li>
 
             <li class="poster">
               <a href="#"><img width="370" src="./images/new-orlean-2.jpg" alt="баскетбол" /></a>
-              <h2 class="portfolio-subtitle">Постер New Orlean vs Golden Star</h2>
-              <p class="portfolio-text">дизаин</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Постер New Orlean vs Golden Star</h2>
+                <p class="portfolio-text">дизаин</p>
+              </div>
             </li>
 
             <li class="poster">
               <a href="#">
                 <img width="370" src="./images/seafood-3.jpg" alt="логотип ресторана"
               /></a>
-              <h2 class="portfolio-subtitle">Ресторан Seafood</h2>
-              <p class="portfolio-text">приложение</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Ресторан Seafood</h2>
+                <p class="portfolio-text">приложение</p>
+              </div>
             </li>
 
             <li class="poster">
               <a href="#"> <img width="370" src="./images/prime-4.jpg" alt="наушники" /></a>
-              <h2 class="portfolio-subtitle">Проект Prime</h2>
-              <p class="portfolio-text">маркетинг</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Проект Prime</h2>
+                <p class="portfolio-text">маркетинг</p>
+              </div>
             </li>
 
             <li class="poster">
               <a href="#"> <img width="370" src="./images/boxes-5.jpg" alt="духи" /></a>
-              <h2 class="portfolio-subtitle">Проект Boxes</h2>
-              <p class="portfolio-text">приложение</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Проект Boxes</h2>
+                <p class="portfolio-text">приложение</p>
+              </div>
             </li>
 
             <li class="poster">
@@ -98,31 +117,40 @@
                   alt="монитор с изображением главной страници сайта"
                 />
               </a>
-              <h2 class="portfolio-subtitle">Inspiration has no Borders</h2>
-              <p class="portfolio-text">веб-сайт</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Inspiration has no Borders</h2>
+                <p class="portfolio-text">веб-сайт</p>
+              </div>
             </li>
 
             <li class="poster">
               <a href="#">
                 <img width="370" src="./images/limited-edition-7.jpg" alt="журнал мод"
               /></a>
-              <h2 class="portfolio-subtitle">Издание Limited Edition</h2>
-              <p class="portfolio-text">дизаин</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Издание Limited Edition</h2>
+                <p class="portfolio-text">дизаин</p>
+              </div>
             </li>
 
             <li class="poster">
               <a href="#"> <img width="370" src="./images/lab-8.jpg" alt="бейджик" /></a>
-              <h2 class="portfolio-subtitle">Проект LAB</h2>
-              <p class="portfolio-text">маркетинг</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Проект LAB</h2>
+                <p class="portfolio-text">маркетинг</p>
+              </div>
             </li>
 
             <li class="poster">
               <a href="#"> <img width="370" src="./images/img-9.jpg" alt="ноутбук" /></a>
-              <h2 class="portfolio-subtitle">Growing Business</h2>
-              <p class="portfolio-text">приложение</p>
+              <div class="portfolio-text-style">
+                <h2 class="portfolio-subtitle">Growing Business</h2>
+                <p class="portfolio-text">приложение</p>
+              </div>
             </li>
           </ul>
         </section>
+</div>
       </main>
       <!-- footer -->
       <footer class="footer">

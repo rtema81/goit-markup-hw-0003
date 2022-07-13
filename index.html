@@ -14,47 +14,57 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/1.1.0/normalize.min.css"
+    />
   </head>
-  <div class="conteiner">
   <body class="body">
     <!-- верхня лінія -->
-    <header>
-      <div class="page-heder conteiner">
-      <nav class="main-nav item">
-        <a class="logo" href="#"> Web<span class="logo-studio">Studio</span></a>
+    <div class="conteiner">
+      <header>
+        <div class="page-heder item">
+          <nav class="main-nav item">
+            <a class="logo" href="#"> Web<span class="logo-studio">Studio</span></a>
 
-        <!-- навігфція по сторінкам -->
+            <!-- навігфція по сторінкам -->
 
-        <ul class="pagination item list">
-          <li class="item">
-            <a class="link current" href="./index.html" class="current">Студия</a>
-          </li class="item">
+            <ul class="pagination item list">
+              <li class="item">
+                <a class="link current" href="./index.html">Студия</a>
+              </li>
 
-          <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+              <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
 
-          <li class="item"><a class="link" href="">Контакты</a></li>
-        </ul>
-
-        <!-- meil and tel -->
-
-        <ul class="mail-tel item list">
-          <li>
-            <a class="mail" href="meilto:info@devstudio.com">info@devstudio.com</a>
-          </li  >
-          <li></li><a class="tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </nav>
-    </div>
+              <li class="item"><a class="link" href="">Контакты</a></li>
+            </ul>
+          </nav>
+          <!-- meil and tel -->
+          <div class="contact">
+            <ul class="mail-tel list item">
+              <li>
+                <a class="mail" href="meilto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li>
+                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </header>
-    </header>
+    </div>
+
     <main>
       <!-- головний напис -->
-      <section class="heading">
-        <h1 class="title">Эффективные решения для вашего бизнеса</h1>
-        <button class="button" type="button">Заказать услугу</button>
-      </section>
+      <div class="conteiner">
+        <section class="heading">
+          <h1 class="title">Эффективные решения для вашего бизнеса</h1>
+          <button class="button" type="button">Заказать услугу</button>
+        </section>
+      </div>
       <!-- наші переваги -->
-      <section>
+
+      <section class="cection conteiner">
         <h2 class="invisible">наши преимущества</h2>
         <ul class="benefits list">
           <li class="benefits-element">
@@ -83,54 +93,64 @@
           </li>
         </ul>
       </section>
+
       <!-- наша робота-->
-      <section>
-        <h2 class="work-subtitle">Чем мы занимаемся</h2>
-        <ul class="work list">
-          <li class="work-img"><img width="370" src="./images/img1.jpg" alt="клавиатура и планшет" /></li>
-          <li class="work-img"><img width="370" src="./images/img2.jpg" alt="ноутбук и мобильный" /></li>
-          <li class="work-img"><img width="370" src="./images/img3.jpg" alt="мозайка" /></li>
-        </ul>
-      </section>
+      <div class="cection conteiner">
+        <section class="work-section">
+          <h2 class="work-subtitle">Чем мы занимаемся</h2>
+          <ul class="work list">
+            <li class="work-img">
+              <img width="370" src="./images/img1.jpg" alt="клавиатура и планшет" />
+            </li>
+            <li class="work-img">
+              <img width="370" src="./images/img2.jpg" alt="ноутбук и мобильный" />
+            </li>
+            <li class="work-img"><img width="370" src="./images/img3.jpg" alt="мозайка" /></li>
+          </ul>
+        </section>
+      </div>
       <!-- наша команда -->
-      <section>
-        <h2 class="work-subtitle">Наша команда</h2>
-        <ul class="team list">
-          <li class="team-img">
-            <img width="270" src="./images/img(1).jpg" alt="фото дизайнера" />
-            <h3 class="staff">Игорь Демьяненко</h3>
-            <p class="job-title">Product Designer</p>
-          </li>
-          <li class="team-img">
-            <img width="270" src="./images/img(2).jpg" alt="фото разработчика" />
-            <h3 class="staff">Ольга Репина</h3>
-            <p class="job-title">Frontend Developer</p>
-          </li>
-          <li class="team-img">
-            <img width="270" src="./images/img(3).jpg" alt=" фото маркетинг" />
-            <h3 class="staff">Николай Тарасов</h3>
-            <p class="job-title">Marketing</p>
-          </li>
-          <li class="team-img">
-            <img width="270" src="./images/img(4).jpg" alt=" фото дизайнера" />
-            <h3 class="staff">Михаил Ермаков</h3>
-            <p class="job-title">UI Designer</p>
-          </li>
-        </ul>
-      </section>
+      <div class="cection conteiner">
+        <section class="cection-team">
+          <h2 class="work-subtitle">Наша команда</h2>
+          <ul class="team list">
+            <li class="team-img">
+              <img width="270" src="./images/img(1).jpg" alt="фото дизайнера" />
+              <h3 class="staff">Игорь Демьяненко</h3>
+              <p class="job-title">Product Designer</p>
+            </li>
+            <li class="team-img">
+              <img width="270" src="./images/img(2).jpg" alt="фото разработчика" />
+              <h3 class="staff">Ольга Репина</h3>
+              <p class="job-title">Frontend Developer</p>
+            </li>
+            <li class="team-img">
+              <img width="270" src="./images/img(3).jpg" alt=" фото маркетинг" />
+              <h3 class="staff">Николай Тарасов</h3>
+              <p class="job-title">Marketing</p>
+            </li>
+            <li class="team-img">
+              <img width="270" src="./images/img(4).jpg" alt=" фото дизайнера" />
+              <h3 class="staff">Михаил Ермаков</h3>
+              <p class="job-title">UI Designer</p>
+            </li>
+          </ul>
+        </section>
+      </div>
     </main>
     <!-- footer -->
-    <footer class="footer">
-      <a class="logo" href="#"> Web<span class="footer-studio">Studio</span></a>
+    <div class="conteiner">
+      <footer class="footer">
+        <a class="logo" href="#"> Web<span class="footer-studio">Studio</span></a>
 
-      <address>
-        <p class="footer-str">г. Киев, пр-т Леси Украинки, 26</p>
-        <ul class="list">
-          <li><a class="footer-mail" href="mailto:info@example.com">info@example.com</a></li>
-          <li><a class="tel-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
-    </footer>
+        <address>
+          <p class="footer-str">г. Киев, пр-т Леси Украинки, 26</p>
+          <ul class="list">
+            <li><a class="footer-mail" href="mailto:info@example.com">info@example.com</a></li>
+            <li><a class="tel-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </footer>
+    </div>
   </body>
-</div>
 </html>
