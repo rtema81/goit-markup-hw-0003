@@ -21,43 +21,40 @@
   </head>
   <body class="body">
     <!-- верхня лінія -->
-    <div class="conteiner">
-      <header>
-        <div class="page-heder item">
-          <nav class="main-nav item">
-            <a class="logo" href="#"> Web<span class="logo-studio">Studio</span></a>
 
-            <!-- навігфція по сторінкам -->
+    <header>
+      <div class="page-heder item">
+        <nav class="main-nav item conteiner">
+          <a class="logo" href="#"> Web<span class="logo-studio">Studio</span></a>
 
-            <ul class="pagination item list">
-              <li class="item">
-                <a class="link current" href="./index.html">Студия</a>
-              </li>
+          <!-- навігфція по сторінкам -->
 
-              <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <ul class="pagination item list">
+            <li class="item">
+              <a class="link current" href="./index.html">Студия</a>
+            </li>
 
-              <li class="item"><a class="link" href="">Контакты</a></li>
-            </ul>
-          </nav>
-          <!-- meil and tel -->
-          <div class="contact">
-            <ul class="mail-tel list item">
-              <li>
-                <a class="mail" href="meilto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li>
-                <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </header>
-    </div>
+            <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+
+            <li class="item"><a class="link" href="">Контакты</a></li>
+          </ul>
+        </nav>
+        <!-- meil and tel -->
+        <ul class="mail-tel list item conteiner contact">
+          <li>
+            <a class="mail" href="meilto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </div>
+    </header>
 
     <main>
       <!-- головний напис -->
-      <div class="conteiner">
-        <section class="heading">
+      <div>
+        <section class="heading conteiner">
           <h1 class="title">Эффективные решения для вашего бизнеса</h1>
           <button class="button" type="button">Заказать услугу</button>
         </section>
@@ -95,23 +92,23 @@
       </section>
 
       <!-- наша робота-->
-      <div class="cection conteiner">
-        <section class="work-section">
-          <h2 class="work-subtitle">Чем мы занимаемся</h2>
-          <ul class="work list">
-            <li class="work-img">
-              <img width="370" src="./images/img1.jpg" alt="клавиатура и планшет" />
-            </li>
-            <li class="work-img">
-              <img width="370" src="./images/img2.jpg" alt="ноутбук и мобильный" />
-            </li>
-            <li class="work-img"><img width="370" src="./images/img3.jpg" alt="мозайка" /></li>
-          </ul>
-        </section>
-      </div>
+
+      <section class="cection work-section conteiner">
+        <h2 class="work-subtitle">Чем мы занимаемся</h2>
+        <ul class="work list">
+          <li class="work-img">
+            <img width="370" src="./images/img1.jpg" alt="клавиатура и планшет" />
+          </li>
+          <li class="work-img">
+            <img width="370" src="./images/img2.jpg" alt="ноутбук и мобильный" />
+          </li>
+          <li class="work-img"><img width="370" src="./images/img3.jpg" alt="мозайка" /></li>
+        </ul>
+      </section>
+
       <!-- наша команда -->
-      <div class="cection conteiner">
-        <section class="cection-team">
+      <div class="cection">
+        <section class="cection-team conteiner">
           <h2 class="work-subtitle">Наша команда</h2>
           <ul class="team list">
             <li class="team-img">
@@ -139,18 +136,18 @@
       </div>
     </main>
     <!-- footer -->
-    <div class="conteiner">
-      <footer class="footer">
-        <a class="logo" href="#"> Web<span class="footer-studio">Studio</span></a>
+    <footer class="footer">
+      <div class="conteiner">
+        <a class="footer-logo" href="#"> Web<span class="footer-studio">Studio</span></a>
 
         <address>
           <p class="footer-str">г. Киев, пр-т Леси Украинки, 26</p>
-          <ul class="list">
+          <ul class="list footer-mail">
             <li><a class="footer-mail" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="tel-footer" href="tel:+380991111111">+38 099 111 11 11</a></li>
+            <li><a class="footer-tel" href="tel:+380991111111">+38 099 111 11 11</a></li>
           </ul>
         </address>
-      </footer>
-    </div>
+      </div>
+    </footer>
   </body>
 </html>

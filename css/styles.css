@@ -80,8 +80,7 @@ img {
 
 .item {
   display: flex;
-  margin-right: 50px;
-  justify-content: space-between;
+
   align-items: center;
 }
 .item:last-child {
@@ -134,6 +133,7 @@ img {
   margin-right: 50px;
 }
 .mail-tel a {
+  margin-left: auto;
   color: var(--prim-text-color);
   font-weight: 500;
   text-decoration: none;
@@ -154,7 +154,7 @@ img {
 .heading {
   background-color: var(--title-background-color);
   text-align: center;
-  width: 1600px;
+  /* width: 1600px; */
   padding-bottom: 200px;
   padding-top: 200px;
 }
@@ -183,6 +183,7 @@ img {
   padding: 10px 32px;
   margin-top: 40px;
   border-radius: 4px;
+  border: none;
 }
 /* наші переваги */
 
@@ -209,7 +210,7 @@ img {
   line-height: 1.1;
   font-size: 14px;
   text-transform: uppercase;
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .work-subtitle {
   color: var(--titl-text-color);
@@ -236,7 +237,6 @@ img {
 /* наша команда */
 .cection-team {
   background-color: #f5f4fa;
-  width: 1600px;
 }
 .team {
   display: flex;
@@ -266,15 +266,26 @@ img {
 }
 
 /* footer */
+.footer-logo {
+  color: var(--focus-color);
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
 address {
   font-style: normal;
 }
 .footer {
-  width: 1600px;
-  background-color: var(--title-background-color);
+  margin-top: 0;
+  margin-bottom: 0;
   padding-top: 60px;
   padding-bottom: 60px;
-  padding-left: 215px;
+  background-color: var(--title-background-color);
 }
 .footer-studio {
   color: var(--hover-color);
@@ -283,27 +294,23 @@ address {
 .footer-str {
   line-height: 1.71;
   color: var(--hover-color);
-  padding-top: 20px;
-  margin: 0px;
 }
 .footer-mail {
   line-height: 1.71;
   color: var(--foter-meil-color);
   text-decoration: none;
-  padding-top: 9px;
 }
-.tel-footer {
+.footer-tel {
   line-height: 1.71px;
   color: var(--foter-meil-color);
   text-decoration: none;
-  padding-top: 9px;
 }
 .footer-mail:hover,
 .footer-mail:focus {
   color: var(--focus-color);
 }
-.tel-footer:hover,
-.tel-foooter:focus {
+.footer-tel:hover,
+.foooter-tel:focus {
   color: var(--focus-color);
 }
 
